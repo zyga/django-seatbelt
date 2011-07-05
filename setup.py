@@ -23,7 +23,8 @@ from setuptools import setup, find_packages
 setup(
     name="django-seatbelt",
     version=":versiontools:django_seatbelt:",
-    description='Simple sandbox that isolates production applications from things users stick in /usr/local/',
+    description=('Simple sandbox that isolates production applications from'
+                 ' things users stick in /usr/local/'),
     author='Zygmunt Krynicki',
     author_email='zygmunt.krynicki@canonical.com',
     url='http://github.com/zyga/django-seatbelt',

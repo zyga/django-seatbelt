@@ -28,12 +28,11 @@ class SeatbeltTests(TestCase):
     def test_fasten_restores_sys_path(self):
         orig_path = sys.path[:]
         with seatbelt.fasten():
-            modified_path = sys.path[:]
+            pass
         final_path = sys.path[:]
         self.assertEqual(orig_path, final_path)
 
     def test_fasten_filters_out_stuff(self):
-        orig_path = sys.path[:]
         sys.path.append("foo")
         self.assertIn("foo", sys.path)
         with seatbelt.fasten([lambda path: path != "foo"]):

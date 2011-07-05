@@ -16,6 +16,7 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with django-seatbelt.  If not, see <http://www.gnu.org/licenses/>.
 
+
 def allow_usr_lib(path):
     """
     White-list helper that allows anything installed in /usr/lib/

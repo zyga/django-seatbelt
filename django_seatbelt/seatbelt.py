@@ -17,7 +17,6 @@
 # along with django-seatbelt.  If not, see <http://www.gnu.org/licenses/>.
 
 import contextlib
-import logging
 import sys
 
 
@@ -52,12 +51,12 @@ def _filtered_sys_path(allow_callbacks=None):
     """
     Calculate how sys.path should look like as filtered by the provided
     white-list callbacks.
-    
+
     :param allow_callbacks:
         List of white-list call-backs that check if a particular path entry is
         permitted or not. If left empty then default of
         :ref:`django_seatbelt.allow_callbacks:DEFAULT_ALLOW_CALLBACKS` is used
-    
+
     :return:
         The new sys.path (the actual sys.path is not modified)
     """
