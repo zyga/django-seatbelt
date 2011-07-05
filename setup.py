@@ -36,5 +36,14 @@ setup(
     packages=find_packages(),
     setup_requires=["versiontools >= 1.4"],
     license="LGPL3",
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        ("License :: OSI Approved :: GNU Library or Lesser General Public"
+         " License (LGPL)"),
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 2.6",
+        "Programming Language :: Python :: 2.7",
+    ],
     zip_safe=True,
 )
