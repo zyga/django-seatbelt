@@ -1,0 +1,17 @@
+Fasten your seatbelts
+=====================
+
+Look ma' no junk from ``/usr/local`` in the way!:
+
+    >>> from django_seatbelt import seatbelt
+    >>> with seatbelt.fasten():
+    >>>     import something
+
+For extra security while in the air please keep the seatbelt fastened for good.
+Perfect for your packaged Django application. Lower support costs from users
+and isolate your tested code from (typically) junk-ridden /usr/local.
+
+    >>> from django_seatbelt import seatbelt
+    >>> seatbelt.solder()
+    >>> import django.core.handlers.wsgi
+    >>> application = django.core.handlers.wsgi.WSGIHandler()
