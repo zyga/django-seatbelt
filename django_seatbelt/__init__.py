@@ -24,4 +24,4 @@ mismanagement and stuff they put inside /usr/local/.
 See seatbelt module for the API you care about.
 """
 
-__version__ = (1, 0, 0, "dev", 0)
+__version__ = (1, 0, 0, "final", 0)
