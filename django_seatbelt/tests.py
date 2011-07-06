@@ -18,7 +18,8 @@
 # along with django-seatbelt.  If not, see <http://www.gnu.org/licenses/>.
 
 import sys
-from unittest import TestCase
+
+from testtools import TestCase
 
 from django_seatbelt import seatbelt
 

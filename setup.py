@@ -35,6 +35,7 @@ setup(
     """,
     packages=find_packages(),
     setup_requires=["versiontools >= 1.4"],
+    tests_require=["testtools >= 0.9.2"],
     license="LGPL3",
     classifiers=[
         "Development Status :: 4 - Beta",
